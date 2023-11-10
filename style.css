@@ -302,6 +302,15 @@ footer div a:hover{
     .navbar a {
        font-size: medium;
     }
+    #contact .msg-box {
+        
+       
+        margin: auto;
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+       
+    }
 
 }
 
@@ -311,7 +320,7 @@ footer div a:hover{
     }
 
     #contact .msg-box {
-        /* border: 2px solid #cf6d9e; */
+        
        
         margin: auto;
         width: 70%;
