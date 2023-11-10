@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat:wght@600&family=Roboto+Slab:wght@400;500&family=Sofia&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    line-height: 2;
+
+}
+
+body {
+    background-color: white;
+
+}
+
+
+.bg {
+    background-color: rgba(248, 236, 242);
+    font-family: 'verdana', Courier, monospace;
+    font-size: 1.3rem;
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+nav img{
+    
+    width: 170px;
+}
+
+
+.navbar li a:hover {
+    background-color: rgb(239, 99, 169, 0.6);
+    border-radius: 30px;
+}
+
+section {
+    min-height: 100vh;
+    
+}
+
+
+
+#home .bg-img {
+    /* filter: blur(px); */
+    margin-top: 70px;
+
+}
+
+#home .name {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    /* color: rgb(218, 128, 10); */
+    color:#212529;
+    transition: all 1s ease-in-out;
+    font-family:'Times New Roman', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,serif, monospace, "Helvetica Neue";
+    text-shadow: 0px 3px 2px #cf6d9e;
+    letter-spacing: 4px;
+
+
+
+
+
+
+
+}
+
+#home .name h1 {
+    text-transform: uppercase;
+    transition: all 2s ease-in-out;
+    font-size: 3.2rem;
+    font-weight: 600;
+
+
+}
+
+#home .name h4 {
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    transition: all 2s ease-out;
+    color: #26171e;
+
+
+
+}
+
+/* skill */
+
+
+
+#skill .icon {
+    background-color: #df378b;
+    border-radius: 60px;
+    margin-top: 30px;
+
+}
+
+#skill h2 {
+    text-align: center;
+    font-family: 'sofia', serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #da5050;
+    text-transform: uppercase;
+}
+
+/* card info */
+
+#skill .card img {
+    height: 150px;
+    width:fit-content;
+}
+
+#skill .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#skill .card:hover {
+    box-shadow: none;
+}
+
+/* end card info */
+
+/* end skill */
+
+/* about */
+
+#about {
+    /* background-color: #efe2e9; */
+    background-color: whitesmoke;
+ 
+}
+
+#about .icon {
+    background-color: #df378b;
+    border-radius: 60px;
+    margin-top: 30px;
+
+}
+
+#about .icon img {
+    height: 100px;
+}
+
+#about h2 {
+    text-align: center;
+    font-family: 'sofia', serif, sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #da5050;
+    text-transform: uppercase;
+}
+
+
+
+#about .about-img {
+    max-height: 300px;
+    width: 100%;
+}
+
+#about .about-img {
+    box-shadow: #960b18 20px 20px 0px;
+
+}
+
+#about .about-img:hover{
+    box-shadow: rgba(163, 86, 86, 0.35) 20px 20px 5px;
+}
+
+#about p {
+
+    padding: 10px;
+    font-family:'Times New Roman',  Verdana, Tahoma, sans-serif, Helvetica, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+
+}
+
+/* end about */
+
+/* contact */
+
+#contact {
+    background-color: white;
+    
+}
+
+#contact .icon {
+    background-color: #df378b;
+    border-radius: 60px;
+    margin-top: 30px;
+
+}
+
+#contact .icon img {
+    height: 100px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-family: 'sofia', serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #da5050;
+}
+
+/* massage box */
+#contact .msg-box {
+    /* border: 2px solid #cf6d9e; */
+    border-radius: 10px;
+    margin: auto;
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(218, 80, 80, 0.4);
+    font-family: 'sofia', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#contact .msg-box:hover {
+    background-color: rgb(218, 80, 80, 0.4);
+    box-shadow: none;
+}
+
+#contact .msg-box .btn {
+    background-color: #20c997;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#contact .msg-box .btn:hover {
+    background-color: #046346;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* end massage box */
+
+/* contact info */
+#contact .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#contact .card:hover {
+    box-shadow: none;
+
+}
+
+/* end contact info */
+
+/* end contact */
+
+/* footer */
+
+/* end footer */
+footer {
+    min-height: 50px;
+    background-color: #cf6d9e;
+}
+footer div img{
+    height: 40px;
+
+}
+footer div a:hover{
+    background-color: rgb(220, 53, 69,0.4);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+}
+
+
+
+/* media query */
+
+@media (max-width: 768px) {
+    #home .name {
+        top: 120px;
+        left: 10px;
+
+    }
+
+    #home {
+        min-height: 50vh;
+    }
+
+    #home .name h1 {
+        text-transform: uppercase;
+        transition: all 2s ease-in-out;
+        font-size: 1rem;
+
+
+    }
+
+    #home .name h4 {
+        text-transform: uppercase;
+        font-size: 1rem;
+        transition: all 2s ease-out;
+        color: #212529;
+
+
+
+    }
+    .navbar a {
+       font-size: medium;
+    }
+
+}
+
+@media (max-width: 642px) {
+    #home {
+        min-height: 30vh;
+    }
+}
