@@ -309,4 +309,14 @@ footer div a:hover{
     #home {
         min-height: 30vh;
     }
+
+    #contact .msg-box {
+        /* border: 2px solid #cf6d9e; */
+       
+        margin: auto;
+        width: 70%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+       
+    }
 }
