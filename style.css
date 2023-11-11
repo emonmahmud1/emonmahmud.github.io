@@ -36,7 +36,10 @@ section {
     
 }
 
-
+#home{
+    background-color: #20c997;
+    min-height: fit-content;
+}
 
 #home .bg-img {
     /* filter: blur(px); */
@@ -272,15 +275,15 @@ footer div a:hover{
 /* media query */
 
 @media (max-width: 768px) {
+
+  
     #home .name {
         top: 120px;
         left: 10px;
 
     }
 
-    #home {
-        min-height: 50vh;
-    }
+   
 
     #home .name h1 {
         text-transform: uppercase;
@@ -315,10 +318,7 @@ footer div a:hover{
 }
 
 @media (max-width: 642px) {
-    #home {
-        min-height: 30vh;
-    }
-
+   
     #contact .msg-box {
         
        
